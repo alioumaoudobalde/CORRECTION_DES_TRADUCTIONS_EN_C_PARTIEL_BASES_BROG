@@ -27,6 +27,7 @@ int main()
     if (age > 27)
     {
         if (strcmp(sexe, "homme") == 0)
+        //j'ai corrigé les doubles slashs ici qui étaient des erreurs de frappe sur le retour à la ligne.
         {
             if (age >= 27 && age <= 43)
             {
@@ -43,33 +44,33 @@ int main()
             {
                 if (temps <= 11100)
                 {
-                    printf("QUALIFIÉ! Félicitations.\\n");
+                    printf("QUALIFIÉ! Félicitations.\n");
                 }
                 else
                 {
-                    printf("NON QUALIFIÉ! Du courage.\\n");
+                    printf("NON QUALIFIÉ! Du courage.\n");
                 }
             }
             else if (age >= 54 && age <= 63)
             {
                 if (temps <= 12000)
                 {
-                    printf("QUALIFIÉ! Félicitations.\\n");
+                    printf("QUALIFIÉ! Félicitations.\n");
                 }
                 else
                 {
-                    printf("NON QUALIFIÉ! Du courage.\\n");
+                    printf("NON QUALIFIÉ! Du courage.\n");
                 }
             }
             else if (age > 63)
             {
                 if (temps <= 13500)
                 {
-                    printf("QUALIFIÉ! Félicitations.\\n");
+                    printf("QUALIFIÉ! Félicitations.\n");
                 }
                 else
                 {
-                    printf("NON QUALIFIÉ! Du courage.\\n");
+                    printf("NON QUALIFIÉ! Du courage.\n");
                 }
             }
             else
